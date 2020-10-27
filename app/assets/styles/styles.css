@@ -1,3 +1,7 @@
 @import 'modules/_box1.css';
 @import 'base/_general.css';
 @import 'normalize.css';
+@import 'modules/_boxmiddle.css';
+@import 'base/_cuerpo.css';
+@import 'modules/_boxcontacto.css';
+@import 'modules/_boxbottom.css';

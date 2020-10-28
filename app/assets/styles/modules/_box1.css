@@ -3,7 +3,7 @@
 
     &__subtittle{
         margin: 100px 0 100px 0;
-        color: #242a56;
+        color: #333;
         width: 50%;
         box-sizing: border-box;
         margin-right: auto;
@@ -15,17 +15,17 @@
             letter-spacing: 4px;
             margin-bottom:60px;
             font-size: 3.0rem;
+            color: #242a56;
+
         }
         p{
             font-size: 1.8rem;
             letter-spacing: 2.5px;
-
         }
 
        
     }
     &__benefits{
-        background-color:#eef8fd;
         padding: 1.25px 0 25px 0;
         height: 600px;
    
@@ -37,55 +37,81 @@
         }
 
     }
-    &__tip1{
+   /* &__tip1{
         float: left;
-        background-color: #FFF;
+        background-color: #f3fbfd;
         margin:5px;
         width:30%;
     }
     &__tip2{
         float: left;
-        background-color: #FFF;
+        background-color: #f3fbfd;
         margin:5px;
         width: 30%;
     }
     &__tip3{
         float: left;
-        background-color: #FFF;
+        background-color: #f3fbfd;
         margin: 5px;
         width: 30%;
     }
     &__tip4{
         float: left;
-        background-color: #FFF;
+        background-color: #f3fbfd;
         margin: 5px;
         width: 30%;
     }
     &__tip5{
         float: left;
-        background-color: #FFF;
+        background-color: #f3fbfd;
         margin: 5px;
         max-width:33,3%;
         width: 30%;
     }
     &__tip6{
         float: left;
-        background-color: #FFF;
+        background-color: #f3fbfd;
         margin: 5px;
         width: 30%;
-    }
+    }*/
     .items{
         font-size:1.5rem;
+        color: #333;
     }
 }
+.boxis{
+    float:left;
+    flex:none;
+    width: 31%;
+
+    margin-right: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    &:nth-child(1n){
+        margin-left:10px;
+        margin-top:10px;
+    }
+    &:nth-child(3n){
+        margin-right: 10px;
+    }
+    &:nth-child(6n){
+        margin-right: -8px;
+    }
+
+}
 .cuerpo-benefit1{
+    display: flex;
+    flex-wrap: wrap;
     margin-top:100px;
     max-width: 1380px;
     margin-left: auto;
     margin-right: auto;
     color:#333;
-
+    justify-content: space-between;
 }
+
 .fix{
     clear: both;
 }
@@ -103,5 +129,6 @@
 .group {
     zoom: 1;
 }
+
 
 

@@ -1,6 +1,14 @@
 .boxcontacto{
     background-color: black;
     color: white;
+    &__cont{
     text-align: center;
-    padding: 40px 0 40px 0;
+    padding: 40px 0 60px 0;
+    }
+}
+.logo {
+
+    display: inline-block;
+    float: right; 
+    margin: 20px 0px 0 0;
 }

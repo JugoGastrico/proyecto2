@@ -1,8 +1,8 @@
 .boxmiddle{
-    background-color: red;
+    position: relative;
+
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-  
     font-size: 2.5rem;
 }

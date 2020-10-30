@@ -1,94 +1,69 @@
 .box1{
-    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-bottom:0;
+    &__img-background{
+        
+        height: 100vh;
+        width:100%;
+        display:block;
+    
+    }
 
-    &__subtittle{
-        margin: 100px 0 100px 0;
-        color: #333;
+    &__text{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position:absolute;
+        color: white;
         width: 50%;
-        box-sizing: border-box;
-        margin-right: auto;
-        margin-left: auto;
         font-size: 1.5rem;
-        text-align: center;
+        
         h2{
             font-weight: 400;
             letter-spacing: 4px;
             margin-bottom:60px;
             font-size: 3.0rem;
-            color: #242a56;
+            color: #ffffff;
 
         }
         p{
             font-size: 1.8rem;
             letter-spacing: 2.5px;
         }
+    }
+}
+    
+.box2__benefits{
+    position: relative;
+    margin-top:-37px;
+    background-color:#1c2746;
+    height: 850px;
 
-       
-    }
-    &__benefits{
-        padding: 1.25px 0 25px 0;
-        height: 600px;
-   
-        h2{
-            text-align: center;
-            margin-top: 80px;
-            font-size:2.5rem;
-            color: #242a56;
-        }
-
-    }
-   /* &__tip1{
-        float: left;
-        background-color: #f3fbfd;
-        margin:5px;
-        width:30%;
-    }
-    &__tip2{
-        float: left;
-        background-color: #f3fbfd;
-        margin:5px;
-        width: 30%;
-    }
-    &__tip3{
-        float: left;
-        background-color: #f3fbfd;
-        margin: 5px;
-        width: 30%;
-    }
-    &__tip4{
-        float: left;
-        background-color: #f3fbfd;
-        margin: 5px;
-        width: 30%;
-    }
-    &__tip5{
-        float: left;
-        background-color: #f3fbfd;
-        margin: 5px;
-        max-width:33,3%;
-        width: 30%;
-    }
-    &__tip6{
-        float: left;
-        background-color: #f3fbfd;
-        margin: 5px;
-        width: 30%;
-    }*/
-    .items{
-        font-size:1.5rem;
-        color: #333;
+    
+    h2{
+        text-align: center;
+        padding-top: 80px;
+        font-size:2.5rem;
+        color: #FFF;
     }
 }
 .boxis{
     float:left;
     flex:none;
     width: 31%;
-
+    background-color: rgb(241, 250, 255);
     margin-right: 10px;
     margin-bottom: 10px;
+    padding:25px;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    border-radius: 20px 20px 20px 20px;
+    text-align:center;
+    
+  
     &:nth-child(1n){
         margin-left:10px;
         margin-top:10px;
@@ -104,12 +79,24 @@
 .cuerpo-benefit1{
     display: flex;
     flex-wrap: wrap;
-    margin-top:100px;
+    margin-top:70px;
     max-width: 1380px;
     margin-left: auto;
     margin-right: auto;
     color:#333;
     justify-content: space-between;
+    .items{
+        padding-bottom: 15px;
+        font-size:1.5rem;
+        color: #333;
+        border-bottom: 4px solid #242a56;
+        border-radius: 10px 10px 10px 10px;
+        text-align:center;
+       
+    }
+    .items-texto{
+        font-size:1.2rem;
+    }
 }
 
 .fix{

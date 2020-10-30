@@ -1,5 +1,19 @@
 .boxbottom{
-    background-color:#eef8fd;
-    color: #333;
-    padding: 40px 40px 40px 40px;
+    background-color:#1c2746;
+    color: white;
+    padding: 80px 0px 120px 0px;
+    text-align:center;
+    h3{
+        margin-bottom:50px;
+        font-size:2.5rem;
+        font-weight:normal;
+        letter-spacing:3px;
+    }
+    p {
+        width:60%;
+        margin-left:auto;
+        margin-right:auto;
+        letter-spacing: 1.5px;
+        font-size: 1.5rem;
+    }
 }

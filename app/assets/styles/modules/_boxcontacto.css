@@ -1,14 +1,23 @@
 .boxcontacto{
-    background-color: black;
-    color: white;
+    position:relative;
+    color: #333;
+ 
     &__cont{
-    text-align: center;
-    padding: 40px 0 60px 0;
+        display: block;
+        transform:translateX(80%);
+        margin-right:10%;   
+        margin-top:60px;
     }
 }
 .logo {
-
-    display: inline-block;
-    float: right; 
-    margin: 20px 0px 0 0;
+    color: #fff;
+    position: absolute;
+    transform:translateX(10%);
+    background-color: #1c2746;
+    padding: 30px 100px 30px 100px;
+    
+}
+.box3 {
+    margin-top:50px;
+    text-align: center;
 }

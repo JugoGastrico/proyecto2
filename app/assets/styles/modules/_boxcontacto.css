@@ -1,6 +1,7 @@
-.boxcontacto{
+/*.boxcontacto{
     position:relative;
     color: #333;
+    background-color: black;
  
     &__cont{
         display: block;
@@ -12,7 +13,7 @@
 .logo {
     color: #fff;
     position: absolute;
-    transform:translateX(10%);
+    transform:translateX(300px);
     background-color: #1c2746;
     padding: 30px 100px 30px 100px;
     
@@ -20,4 +21,4 @@
 .box3 {
     margin-top:50px;
     text-align: center;
-}
+}*/
